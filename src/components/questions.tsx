@@ -109,11 +109,21 @@ export default function Questions() {
                                     justifyContent: 'space-between'
                                 }}
                             >
-                                <IonRadio value={1} />
-                                <IonRadio value={2} />
-                                <IonRadio value={3} />
-                                <IonRadio value={4} />
-                                <IonRadio value={5} />
+                                <IonItem lines="none">
+                                    <IonRadio slot="start" value={1} />
+                                </IonItem>
+                                <IonItem lines="none">
+                                    <IonRadio slot="start" value={2} />
+                                </IonItem>
+                                <IonItem lines="none">
+                                    <IonRadio slot="start" value={3} />
+                                </IonItem>
+                                <IonItem lines="none">
+                                    <IonRadio slot="start" value={4} />
+                                </IonItem>
+                                <IonItem lines="none">
+                                    <IonRadio slot="start" value={5} />
+                                </IonItem>
                             </IonRadioGroup>
                         </div>
                         
