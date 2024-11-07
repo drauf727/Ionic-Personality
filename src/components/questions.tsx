@@ -109,21 +109,31 @@ export default function Questions() {
                                     justifyContent: 'space-between'
                                 }}
                             >
-                                <IonItem lines="none">
-                                    <IonRadio slot="start" value={1} />
-                                </IonItem>
-                                <IonItem lines="none">
-                                    <IonRadio slot="start" value={2} />
-                                </IonItem>
-                                <IonItem lines="none">
-                                    <IonRadio slot="start" value={3} />
-                                </IonItem>
-                                <IonItem lines="none">
-                                    <IonRadio slot="start" value={4} />
-                                </IonItem>
-                                <IonItem lines="none">
-                                    <IonRadio slot="start" value={5} />
-                                </IonItem>
+                                <IonRadio 
+                                    value={1} 
+                                    style={{ width: '20px', height: '20px' }}
+                                    mode="md"
+                                />
+                                <IonRadio 
+                                    value={2} 
+                                    style={{ width: '20px', height: '20px' }}
+                                    mode="md"
+                                />
+                                <IonRadio 
+                                    value={3} 
+                                    style={{ width: '20px', height: '20px' }}
+                                    mode="md"
+                                />
+                                <IonRadio 
+                                    value={4} 
+                                    style={{ width: '20px', height: '20px' }}
+                                    mode="md"
+                                />
+                                <IonRadio 
+                                    value={5} 
+                                    style={{ width: '20px', height: '20px' }}
+                                    mode="md"
+                                />
                             </IonRadioGroup>
                         </div>
                         
