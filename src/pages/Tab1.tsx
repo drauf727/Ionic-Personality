@@ -14,7 +14,7 @@ const Tab1: React.FC = () => {
       <IonContent fullscreen>
         <IonHeader collapse="condense">
           <IonToolbar>
-            <IonTitle size="large">Time to take the exam</IonTitle>
+            <IonTitle size="large">Exam Time!!</IonTitle>
           </IonToolbar>
         </IonHeader>
         
