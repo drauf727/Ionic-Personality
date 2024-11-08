@@ -7,17 +7,16 @@ const Tab1: React.FC = () => {
   return (
     <IonPage>
       <IonHeader>
-        <IonToolbar>
+        <IonToolbar style={{
+          '--background': 'var(--color-primary)',
+          '--color': 'var(--color-light)'
+        }}>
           <IonTitle>Personality Exam</IonTitle>
         </IonToolbar>
       </IonHeader>
-      <IonContent fullscreen>
-        <IonHeader collapse="condense">
-          <IonToolbar>
-            <IonTitle size="large">Exam Time!!</IonTitle>
-          </IonToolbar>
-        </IonHeader>
-        
+      <IonContent style={{
+        '--background': 'var(--background-color)'
+      }}>
         <Questions />
       </IonContent>
     </IonPage>

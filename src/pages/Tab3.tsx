@@ -9,6 +9,7 @@ import {
 } from '@ionic/react';
 import { useAuth0 } from '@auth0/auth0-react';
 import './Tab3.css';
+import '../theme/variables.css'
 
 const Tab3: React.FC = () => {
   const { loginWithRedirect, logout, isLoading, user } = useAuth0();
@@ -53,6 +54,10 @@ const Tab3: React.FC = () => {
           <h2>Please log in or create an account</h2>
           <IonButton 
             expand="block" 
+            style={{
+              '--background': 'var(--color-secondary)',
+              '--color': 'var(--color-light)'
+            }}
             onClick={() => loginWithRedirect({
               authorizationParams: {
                 screen_hint: 'login',

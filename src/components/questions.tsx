@@ -143,7 +143,15 @@ export default function Questions() {
             ))}
 
             <div className="ion-text-center ion-padding">
-                <IonButton expand="block" onClick={handleSubmit}>
+                <IonButton 
+                    expand="block"
+                    style={{
+                        '--background': 'var(--color-secondary)',
+                        '--color': 'var(--color-light)',
+                        '--border-radius': '6px'
+                    }}
+                    onClick={handleSubmit}
+                >
                     Submit
                 </IonButton>
             </div>

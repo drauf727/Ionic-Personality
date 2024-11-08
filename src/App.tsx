@@ -73,15 +73,24 @@ const App: React.FC = () => (
               <Redirect to="/tab1" />
             </Route>
           </IonRouterOutlet>
-          <IonTabBar slot="bottom">
+          <IonTabBar 
+            slot="bottom" 
+            style={{
+              '--background': 'var(--color-primary)',  // Dark blue background
+              '--color': 'var(--color-secondary)',      // Inactive tab color
+              '--color-selected': '#ffffff'  // Active tab color
+            }}
+          >
             <IonTabButton tab="tab1" href="/tab1">
               <IonIcon aria-hidden="true" icon={triangle} />
               <IonLabel>Take Exam</IonLabel>
             </IonTabButton>
+            
             <IonTabButton tab="tab2" href="/tab2">
               <IonIcon aria-hidden="true" icon={ellipse} />
               <IonLabel>View Results</IonLabel>
             </IonTabButton>
+            
             <IonTabButton tab="tab3" href="/tab3">
               <IonIcon aria-hidden="true" icon={square} />
               <IonLabel>My Account</IonLabel>

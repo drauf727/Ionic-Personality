@@ -1,2 +1,14 @@
 /* For information on how to create your own theme, please see:
 http://ionicframework.com/docs/theming/ */
+
+:root {
+  /* Primary colors */
+  --color-primary: #006B99;     /* Deep blue */
+  --color-secondary: #001F33;   /* Navy blue/dark */
+  --color-light: #ffffff;       /* White */
+  
+  /* UI colors */
+  --background-color: #f5f7f9;  /* Light gray background */
+  --text-primary: #001F33;      /* Dark text */
+  --text-secondary: #4A5568;    /* Medium gray text */
+}
